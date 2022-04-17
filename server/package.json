@@ -1,0 +1,20 @@
+{
+  "name": "dictionary-server",
+  "version": "1.0.0",
+  "description": "ccps530 dictionary server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.5.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15"
+  }
+}
